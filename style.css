@@ -28,7 +28,8 @@
 .tags {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  column-gap: 2%;
 }
 
 .card-content {
@@ -49,4 +50,26 @@
 #scrollspyHeading4 {
   height: auto;
   background-color: #fff;
+}
+
+.card {
+  color: #fff;
+}
+
+.modal-content h5 {
+  color: #172b4d;
+}
+
+.modal-content li {
+  color: #3c3a39;
+}
+
+.modal-content p {
+  color: #344563;
+}
+
+.modal-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
